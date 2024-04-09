@@ -24,7 +24,7 @@ export default function Home() {
       // i.e.: https://<name>.<account-name>.workers.dev/api/search?q=${input}
 
       const res = await fetch(
-        `${process.env.NEXT_PUBLIC_CLOUDFLARE_WORKERS_URL}/api/search?q=${input}`,
+        `${process.env.NEXT_PUBLIC_CLOUDFLARE_WORKERS_URL!}/api/search?q=${input}`,
       )
       const data = (await res.json()) as {
         results: string[]

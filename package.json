@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write .",
+    "format": "prettier --write ./src",
     "deploy": "wrangler deploy --minify --name fastapi src/app/api/[[...route]]/route.ts"
   },
   "dependencies": {

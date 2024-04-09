@@ -1,0 +1,6 @@
+name = "fastapi"
+compatibility_date = "2024-04-09"
+
+[vars]
+NEXT_PUBLIC_UPSTASH_REDIS_REST_TOKEN = ""
+NEXT_PUBLIC_UPSTASH_REDIS_REST_URL = ""

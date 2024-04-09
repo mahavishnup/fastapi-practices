@@ -1,0 +1,10 @@
+# Ignore artifacts:
+.next
+.vercel
+.husky
+.vscode
+build
+coverage
+public
+styles
+README.md
